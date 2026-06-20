@@ -1,0 +1,322 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NHENOL FAMILY - FIFA World Cup 2026 Contest</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family:'Poppins', sans-serif;
+        background:#0b1020;
+        color:white;
+        overflow-x:hidden;
+    }
+
+    .hero{
+        min-height:100vh;
+        background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1400&auto=format&fit=crop');
+        background-size:cover;
+        background-position:center;
+        padding:40px 20px;
+    }
+
+    .top-btn{
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .top-btn a{
+        background:#ffcc00;
+        color:#000;
+        padding:15px 35px;
+        text-decoration:none;
+        border-radius:50px;
+        font-weight:700;
+        font-size:18px;
+        transition:0.3s;
+    }
+
+    .top-btn a:hover{
+        background:white;
+        transform:scale(1.05);
+    }
+
+    .logo-section{
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .logo-section img{
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        border:4px solid #fff;
+        background:white;
+        object-fit:cover;
+    }
+
+    .title{
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .title h1{
+        font-size:55px;
+        color:#ffcc00;
+        letter-spacing:3px;
+        font-weight:700;
+    }
+
+    .title h2{
+        font-size:32px;
+        margin-top:10px;
+        color:#ffffff;
+    }
+
+    .title p{
+        margin-top:15px;
+        font-size:18px;
+        color:#d7d7d7;
+    }
+
+    .fifa-logo{
+        text-align:center;
+        margin:30px 0;
+    }
+
+    .fifa-logo img{
+        width:180px;
+    }
+
+    .container{
+        width:90%;
+        max-width:1200px;
+        margin:auto;
+    }
+
+    .section{
+        background:rgba(255,255,255,0.08);
+        padding:35px;
+        margin-top:30px;
+        border-radius:20px;
+        backdrop-filter:blur(6px);
+        border:1px solid rgba(255,255,255,0.1);
+    }
+
+    .section h3{
+        font-size:30px;
+        color:#ffcc00;
+        margin-bottom:20px;
+        text-align:center;
+    }
+
+    .sponsor-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+        gap:20px;
+    }
+
+    .sponsor-card{
+        background:#111827;
+        border-radius:15px;
+        padding:20px;
+        text-align:center;
+        transition:0.3s;
+    }
+
+    .sponsor-card:hover{
+        transform:translateY(-5px);
+    }
+
+    .sponsor-card img{
+        width:100%;
+        height:180px;
+        object-fit:cover;
+        border-radius:12px;
+        margin-bottom:15px;
+    }
+
+    .sponsor-card h4{
+        font-size:20px;
+        color:#fff;
+    }
+
+    .participants ul,
+    .schedule ul,
+    .prizes ul{
+        list-style:none;
+        padding-left:0;
+    }
+
+    .participants li,
+    .schedule li,
+    .prizes li{
+        background:#111827;
+        margin-bottom:12px;
+        padding:15px;
+        border-radius:10px;
+    }
+
+    footer{
+        text-align:center;
+        padding:25px;
+        margin-top:40px;
+        background:#000;
+        color:#aaa;
+    }
+
+    @media(max-width:768px){
+
+        .title h1{
+            font-size:38px;
+        }
+
+        .title h2{
+            font-size:24px;
+        }
+
+        .section{
+            padding:20px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+    <!-- Contest Form Button -->
+    <div class="top-btn">
+        <a href="#contest-form">
+            CLICK HERE TO FILL CONTEST FORM
+        </a>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo-section">
+        <!-- Replace logo.png with your logo -->
+        <img src="logo.png" alt="NHENOL FAMILY Logo">
+    </div>
+
+    <!-- Title -->
+    <div class="title">
+        <h1>NHENOL FAMILY</h1>
+        <h2>FIFA WORLD CUP 2026 FAMILY PREDICTION CONTEST</h2>
+        <p>
+            Predict • Compete • Win Amazing Prizes
+        </p>
+    </div>
+
+    <!-- FIFA Logo -->
+    <div class="fifa-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/FIFA_World_Cup_2026_logo.svg/800px-FIFA_World_Cup_2026_logo.svg.png"
+        alt="FIFA World Cup 2026">
+    </div>
+
+    <div class="container">
+
+        <!-- Sponsors -->
+        <div class="section">
+            <h3>Programme Sponsored By</h3>
+
+            <div class="sponsor-grid">
+
+                <div class="sponsor-card">
+                    <img src="sponsor1.jpg" alt="Yasar">
+                    <h4>Yasar</h4>
+                </div>
+
+                <div class="sponsor-card">
+                    <img src="sponsor2.jpg" alt="Dilna">
+                    <h4>Dilna</h4>
+                </div>
+
+                <div class="sponsor-card">
+                    <img src="sponsor3.jpg" alt="Raseel">
+                    <h4>Raseel</h4>
+                </div>
+
+                <div class="sponsor-card">
+                    <img src="sponsor4.jpg" alt="Shamsad">
+                    <h4>Shamsad</h4>
+                </div>
+
+                <div class="sponsor-card">
+                    <img src="sponsor5.jpg" alt="Rishad">
+                    <h4>Rishad</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Match Schedule -->
+        <div class="section schedule">
+            <h3>Match Schedule</h3>
+
+            <ul>
+                <li>Match details will be added here</li>
+                <li>Team A vs Team B - Date & Time</li>
+                <li>Team C vs Team D - Date & Time</li>
+                <li>Add complete FIFA World Cup 2026 schedule here</li>
+            </ul>
+        </div>
+
+        <!-- Participants -->
+        <div class="section participants">
+            <h3>Participants List</h3>
+
+            <ul>
+                <li>Participant Name 1</li>
+                <li>Participant Name 2</li>
+                <li>Participant Name 3</li>
+                <li>Add all participant names here</li>
+            </ul>
+        </div>
+
+        <!-- Prizes -->
+        <div class="section prizes">
+            <h3>Winner Prize Details</h3>
+
+            <ul>
+                <li>Dubai Trip</li>
+                <li>Football Boot</li>
+                <li>Jersey</li>
+                <li>Football</li>
+                <li>iPhone</li>
+                <li>And many more attractive prizes</li>
+            </ul>
+        </div>
+
+        <!-- Contest Form Placeholder -->
+        <div class="section" id="contest-form">
+            <h3>Contest Form</h3>
+
+            <p style="text-align:center; font-size:18px;">
+                Add your Google Form / Registration Form here later.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 NHENOL FAMILY | FIFA World Cup Prediction Contest
+</footer>
+
+</body>
+</html>
+```
